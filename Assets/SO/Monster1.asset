@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a2d5090e485f4aa53af6f8f598ca7, type: 3}
+  m_Name: Monster1
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  ID: 1000
+  Name: Monster1
+  Description: Test Monster 1
+  Prefab: {fileID: 2041021792701448181, guid: e161132726f726d41b547af50eb5d08d, type: 3}

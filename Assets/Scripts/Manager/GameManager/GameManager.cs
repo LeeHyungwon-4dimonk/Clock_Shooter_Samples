@@ -29,7 +29,6 @@ public class GameManager : Singleton<GameManager>
 
         InitializeGameManager();
         IsInitialized = true;
-        Debug.Log("Initialized GameManager");
     }
 
     private async Task WaitForSceneObjects()

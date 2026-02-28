@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 142533348}
   - component: {fileID: 142533347}
   - component: {fileID: 142533346}
-  - component: {fileID: 142533345}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -138,28 +137,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &142533345
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142533344}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &142533346
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -435,6 +412,7 @@ GameObject:
   - component: {fileID: 625983707}
   - component: {fileID: 625983706}
   - component: {fileID: 625983705}
+  - component: {fileID: 625983708}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -538,6 +516,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625983703}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &625983708
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625983703}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &686161811
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +557,7 @@ GameObject:
   - component: {fileID: 686161813}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,6 +758,7 @@ GameObject:
   - component: {fileID: 903355380}
   - component: {fileID: 903355382}
   - component: {fileID: 903355383}
+  - component: {fileID: 903355384}
   m_Layer: 0
   m_Name: Field
   m_TagString: Untagged
@@ -877,6 +883,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FieldMover
   _rotateAngle: 0
   _rotateDuration: 0.2
+--- !u!114 &903355384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903355377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5fc12319f4d14f8721843bc8de5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterSummoner
+  _maxSummonNum: 8
+  _directionCount: 8
+  _summonTurnOffset: 2
+  _data: {fileID: 11400000, guid: 31c94c75238688e409292d370612fbae, type: 2}
+  _phaseData: {fileID: 11400000, guid: 2c637be3207a3914a90aaae26e3ecb20, type: 2}
 --- !u!1 &1633591973
 GameObject:
   m_ObjectHideFlags: 0

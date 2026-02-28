@@ -14,6 +14,8 @@ public class MonsterPositionManager
 
     public void Register(MonsterController monster)
     {
+        Unregister(monster);
+
         _monsters.Add(monster);
 
         if (!_slots.ContainsKey(monster.DirectionIndex))

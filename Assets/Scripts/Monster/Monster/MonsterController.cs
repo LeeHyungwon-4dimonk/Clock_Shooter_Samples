@@ -16,13 +16,10 @@ public class MonsterController : MonoBehaviour
 
     private float _moveDistance;
 
-    private void Awake()
-    {
-
-    }
-
     public void Initialize(int directionIndex)
     {
+        Manager.Game.monsterPositionManager.Unregister(this);
+
         transform.DOKill();
 
         DirectionIndex = directionIndex;
@@ -73,7 +70,7 @@ public class MonsterController : MonoBehaviour
         float radius = _spawnRadius - (DistanceStep * _moveDistance);
 
         return new Vector3(Mathf.Cos(angle) * radius, _yOffset, Mathf.Sin(angle) * radius);
-    }    
+    }
 
     private void OnCollisionEnter(Collision collision)
     {

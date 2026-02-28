@@ -23,7 +23,7 @@ public class ManagerBootstrapper : MonoBehaviour
         //DataManager.CreateInstance();
         //await Manager.Data.InitAllData();
 
-        //PoolManager.CreateInstance();
+        PoolManager.CreateInstance();
 
         //AudioManager.CreateInstance();
         //await Manager.Audio.Initialize();
@@ -34,7 +34,7 @@ public class ManagerBootstrapper : MonoBehaviour
         //UIManager.CreateInstance();
         //await Manager.UI.Initialize();
 
-        //StatusManager.CreateInstance();
+        StatusManager.CreateInstance();
         //await Manager.Status.Initialize();
 
         GameManager.CreateInstance();
