@@ -63,7 +63,6 @@ public class Monster : MonoBehaviour, IPoolable
         LifeState = MonsterLifeState.Alive;
         _controller.OnHit += HandleHit;
         _subscribed = true;
-        Debug.Log($"구독 {gameObject}");
     }
 
     public void OnReturned()
@@ -76,7 +75,6 @@ public class Monster : MonoBehaviour, IPoolable
         _controller.OnHit -= HandleHit;
         _subscribed = false;
         IsInitialized = false;
-        Debug.Log($"구독해제 {gameObject}");
     }
 
     #endregion

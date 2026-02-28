@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4490285985579545988}
   - component: {fileID: 5106793750183559570}
   - component: {fileID: 7940635694596468148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71ba4731149f0c439bf86696fb0afb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Monster
-  _data: {fileID: 11400000, guid: b6eac945b7bc04a448765e300eaa487f, type: 2}
 --- !u!136 &5106793750183559570
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -127,7 +126,7 @@ GameObject:
   - component: {fileID: 6708558744420128251}
   - component: {fileID: 6500035101910594793}
   - component: {fileID: 2111712497169972812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +217,7 @@ GameObject:
   - component: {fileID: 964491101765435609}
   - component: {fileID: 4401015877415921922}
   - component: {fileID: 7042811123098649664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
