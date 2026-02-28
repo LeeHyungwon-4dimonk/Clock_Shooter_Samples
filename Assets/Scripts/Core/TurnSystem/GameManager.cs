@@ -7,6 +7,7 @@ public class GameManager : Singleton<GameManager>
     public int Direction { get; private set; } = 8;
     public int Score { get; private set; }
     public bool isGamePaused { get; private set; } = true;
+    public bool isBossPhase { get; private set; } = false;
     public event Action IsGamePaused;
     public event Action OnGameOver;
     public TurnStack turnStack { get; private set; }
