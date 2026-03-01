@@ -77,14 +77,16 @@ https://github.com/user-attachments/assets/fdd0dbda-9463-411d-9007-d64bc86e511a
 ---
 
 ## 📂 폴더 구조 설명
-
-- Core : 게임 전반에서 재사용 가능한 핵심 로직
-- Data : 데이터 로드 구조 및 게임 내 데이터 ScriptableObjects
-- Gameplay : 실제 플레이 로직
-- InfraStructure : 공통 유틸 및 확장 메서드
-- Platform : SteamSDK 등 외부 API 활용
-- Resources : Addressables 전환 로직 및 최적화 전략
-- UI : UI 생성 및 관리 로직
+- Localization : 로컬라이제이션 데이터 구성 예시가 제공됩니다. (스킬 데이터 예시)
+- Scenes : 게임의 핵심 로직 실행이 가능한 샘플 씬 1개를 제공합니다.
+- Scripts
+  - Core : 게임 전반에서 재사용 가능한 핵심 로직
+  - Data : 데이터 로드 구조 및 게임 내 데이터 ScriptableObjects
+  - Gameplay : 실제 플레이 로직
+  - InfraStructure : 공통 유틸 및 확장 메서드
+  - Platform : SteamSDK 등 외부 API 활용
+  - Resources : Addressables 전환 로직 및 최적화 전략
+  - UI : UI 생성 및 관리 로직
 
 <pre>
 Scripts/
