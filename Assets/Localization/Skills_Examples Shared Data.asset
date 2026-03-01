@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Skills_Examples Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Skills_Examples
+  m_TableCollectionNameGuidString: fdce272f30591ce488b6c0854f50a3eb
+  m_Entries:
+  - m_Id: 40598635675648
+    m_Key: DEBUFF_ATK_DECREASE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40383077810176
+    m_Key: DEBUFF_ATK_DECREASE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40926638637056
+    m_Key: DEBUFF_CRIT_CHANCE_DECREASE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40739065167872
+    m_Key: DEBUFF_CRIT_CHANCE_DECREASE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41183200018432
+    m_Key: DEBUFF_CRIT_DAMAGE_DECREASE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41326146093056
+    m_Key: DEBUFF_CRIT_DAMAGE_DECREASE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6030985658368
+    m_Key: SKILL_ATK_INCREASE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169827500032
+    m_Key: SKILL_ATK_INCREASE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34775767318528
+    m_Key: SKILL_BACKSHOT_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34338980888576
+    m_Key: SKILL_BACKSHOT_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35301137448960
+    m_Key: SKILL_CRITCHANCE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35172187766784
+    m_Key: SKILL_CRITCHANCE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35832383799296
+    m_Key: SKILL_CRITDAMAGE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36470672982016
+    m_Key: SKILL_CRITDAMAGE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37711008366592
+    m_Key: SKILL_DOUBLETURN_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36990275944448
+    m_Key: SKILL_DOUBLETURN_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38193164582912
+    m_Key: SKILL_HEAL_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38036490551296
+    m_Key: SKILL_HEAL_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38538783621120
+    m_Key: SKILL_LEFTSHOT_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38404725276672
+    m_Key: SKILL_LEFTSHOT_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39070499733504
+    m_Key: SKILL_MAXHP_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38855747174400
+    m_Key: SKILL_MAXHP_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39494367707136
+    m_Key: SKILL_MONSTERFREEZE_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39348506591232
+    m_Key: SKILL_MONSTERFREEZE_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39769354665984
+    m_Key: SKILL_POISON_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39644494430208
+    m_Key: SKILL_POISON_NAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40210532532224
+    m_Key: SKILL_RIGHTSHOT_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40102520815616
+    m_Key: SKILL_RIGHTSHOT_NAME
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4319485336131731480
+  references:
+    version: 2
+    RefIds:
+    - rid: 4319485336131731480
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1772352701041

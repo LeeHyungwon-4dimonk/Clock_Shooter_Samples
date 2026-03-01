@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Skills_Examples_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: fdce272f30591ce488b6c0854f50a3eb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 40598635675648
+    m_Localized: "Attack power \nreduced by 10%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40383077810176
+    m_Localized: Attack power reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40926638637056
+    m_Localized: 'Critical chance
+
+      reduced by 10%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40739065167872
+    m_Localized: Critical chance reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41183200018432
+    m_Localized: Critical damage reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41326146093056
+    m_Localized: 'Critical damage
+
+      reduced by 50%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6030985658368
+    m_Localized: "Attack power \nincreases by 5."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169827500032
+    m_Localized: Attack Increase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34775767318528
+    m_Localized: "Add rear-facing shot\n(20% damage from \nforward attack)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34338980888576
+    m_Localized: Back Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35301137448960
+    m_Localized: 'Critical hit chance
+
+      increases by 5%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35172187766784
+    m_Localized: Critical Chance Increase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35832383799296
+    m_Localized: 'Critical damage
+
+      increases by 50%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36470672982016
+    m_Localized: Critical Damage Increase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37711008366592
+    m_Localized: 'For 10 turns,
+
+      rotating clockwise
+
+      stack doubles.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36990275944448
+    m_Localized: Double Stack accumulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38193164582912
+    m_Localized: 'Restores 20% of
+
+      your current health.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38036490551296
+    m_Localized: Recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38538783621120
+    m_Localized: 'Add left-hand shot
+
+      (20% damage from
+
+      forward attack)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38404725276672
+    m_Localized: Left Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39070499733504
+    m_Localized: 'Max HP
+
+      increases by 20.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38855747174400
+    m_Localized: Max HP Increase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39494367707136
+    m_Localized: 'Freezes monsters
+
+      for 5 turns.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39348506591232
+    m_Localized: Monster Freeze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39769354665984
+    m_Localized: 'Adds poison effect
+
+      to attacks.
+
+      (20% chance to activate)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39644494430208
+    m_Localized: Poison effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40210532532224
+    m_Localized: 'Add right-hand shot
+
+      (20% damage from
+
+      forward attack)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40102520815616
+    m_Localized: Right Shot
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
